@@ -87,8 +87,6 @@ body{
 
 
 #mobile-nav{
-	/*border: 2px solid red;*/
-	/*background-color: rgba(0,0,0,0);*/
 	position: absolute;
 	top: 2%;
 	right: 2%;
@@ -103,18 +101,15 @@ body{
 	text-align: right;
 	box-sizing: border-box;
 	padding-right: 4vw;
-	/*background-color: rgba(0,0,0,0);*/
 
 }
 
 #hamburger-icon a{
 	color: white;
-	/*background-color: rgba(0,0,0,0);*/
 }
 
 #hamburger-icon a: visited{
 	color: white;
-	/*background-color: rgba(0,0,0,0);*/
 }
 
 #hamburger-menu{
@@ -125,7 +120,6 @@ body{
 	position: relative;
 	top: -10vh;
 	z-index: 3;
-	/*background-color: rgba(0,0,0,0);*/
 	height: 0;
 	width: 0;
 	overflow: hidden;
@@ -133,7 +127,6 @@ body{
 
 #hamburger-menu:target{
 	color: orange;
-	/*border: 4px solid red;*/
 	height: auto;
 	width: auto;
 }
@@ -164,9 +157,7 @@ body{
 	height: inherit;
 	color: white;
 	text-decoration: none;
-	/*padding-right:4vw;*/
 	padding: 2vh 0;
-	/*border: 2px solid brown;*/
 }
 
 #hamburger-menu>li:hover{
@@ -176,11 +167,6 @@ body{
 #hamburger-menu>li>a:hover{
 	text-decoration: underline;
 }
-
-/*#hamburger-icon:visited{
-	width: 0;
-	height: 0;
-}*/
 
 #name-social-container{
 	color: white;
@@ -201,7 +187,6 @@ ul.social-icons{
 .social-icons li{
 	width: 3rem;
 	height: 3rem;
-	/*border: 2px solid red;*/
 	border-radius: 50%;
 	transition: box-shadow 0.2s;
 	position: relative;
@@ -211,7 +196,6 @@ ul.social-icons{
 .social-icons i {
     color: white;
     font-size: 1.5rem;
-    /* border: 2px solid white; */
     border-radius: 50%;
     padding-top: 10px;
 }
@@ -248,22 +232,17 @@ ul.social-icons{
 	width: 80%;
 	padding: 2rem;
 	font-size: 1.2rem;
-	/*font-family: sans-serif;*/
 	color: dimgray;
 }
 
 .info-container{
-	/*border: 2px solid black;*/
 	min-height: 60vh;
 	margin-top: 5vh;
 }
 
 .info-container>h1{
 	text-align: center;
-	/*border: 2px solid purple;*/
-	/*height: 20%;*/
 	color: blue;
-	/*font-family: sans-serif;*/
 	padding: 3%;
 	font-size: 1.6em;
 }
@@ -272,7 +251,6 @@ ul.social-icons{
 	margin-right: 0.5em;
 }
 .flex-container{
-	/*border: 2px solid brown;*/
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
@@ -291,7 +269,6 @@ ul.social-icons{
 
 .skill-bar{
 	height: inherit;
-	/*width: 70%;*/
 	border-radius: 1rem 0 0 1rem;
 	color: whitesmoke;
 	padding: 0.3rem 0px;
@@ -339,12 +316,10 @@ section:nth-child(2n+1){
 }
 
 .project-container{
-	/*border: 2px solid brown;*/
 	width: 20vw;
 	min-width: 200px;
 	margin: 2vh;
 	height: auto;
-	/*background-color: rgba(106, 247, 67, 1);*/
 	position: relative;
 	transition: all 0.3s;
 }
@@ -355,8 +330,6 @@ section:nth-child(2n+1){
 	display: block;
 	width: 100%;
 	height: 100%;
-	/*border:  2px solid orange;*/
-	/*background-image: url("https://www.w3schools.com/css/img_forest.jpg");*/
 	opacity: 0;
 	transition: all 0.3s;
 	background-color: rgb(255, 255, 255, 0.7);
@@ -374,9 +347,7 @@ section:nth-child(2n+1){
 }
 
 .project-container a:hover{
-	/*background-color: rgba(106, 247, 67, 0.6);*/
 	opacity: 1;	
-	/*background-color: yellow;*/
 }
 
 .project-container:hover{
@@ -384,9 +355,7 @@ section:nth-child(2n+1){
 }
 
 #contact .flex-container>div{
-	/*border:  2px solid brown;*/
 	width: 45%;
-	/*min-width: 500px;*/
 	padding: 10px;
 	margin: 20px 10px;
 }
@@ -462,9 +431,6 @@ section:nth-child(2n+1){
 #timeline{
 	position: relative;
 	width: 100%;
-	/*height: 60%;*/
-	/*border: 2px solid black;*/
-	/*background-color: yellow;*/
 	box-sizing: border-box;
 }
 
@@ -512,11 +478,9 @@ section:nth-child(2n+1){
 	border: 3px dashed #703030;
 	height: 79%;
 	width: 0px;
-	/*background-color: brown;*/
 	position: absolute;
 	left: 50%;
 	top: 10%;
-	/*font-size: 2rem;*/
 }
 
 #traveller{
@@ -530,7 +494,6 @@ section:nth-child(2n+1){
 @media screen and (max-width: 700px){
 	.nav-menu{
 		display: none;
-		/*background-color: blue;*/
 	}
 
 	.timeline-box{
@@ -567,7 +530,6 @@ section:nth-child(2n+1){
 	#path{
 		left: 90%;
 		top: 10%;
-		/*font-size: 2rem;*/
 	}
 
 	#mobile-nav{

@@ -25,11 +25,13 @@ body{
 	content: '';
 	filter: blur(2px);
 	display: block;
-	opacity: 0.8;
-	background-image: url(images/bg3-min.jpg);
+	opacity: 0.7;
+	filter: brightness(50%);
+	background-image: url(images/resume_bg2.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 75vh;
     z-index: -1;

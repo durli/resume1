@@ -25,8 +25,8 @@ body{
 	content: '';
 	filter: blur(2px);
 	display: block;
-	opacity: 0.7;
-	filter: brightness(50%);
+	opacity: 0.8;
+	filter: brightness(40%);
 	background-image: url(images/resume_bg2.jpeg);
     background-attachment: fixed;
     background-size: cover;
@@ -90,8 +90,8 @@ body{
 	/*border: 2px solid red;*/
 	/*background-color: rgba(0,0,0,0);*/
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 2%;
+	right: 2%;
 	z-index: 3;
 	display: none;
 }
@@ -221,7 +221,7 @@ ul.social-icons{
 }
 
 #about{
-	border: 2px solid orange;
+	border: 2px solid rgba(255,255,255,0);
 }
 
 #about-img{
@@ -340,7 +340,7 @@ section:nth-child(2n+1){
 
 .project-container{
 	/*border: 2px solid brown;*/
-	width: 15vw;
+	width: 20vw;
 	min-width: 200px;
 	margin: 2vh;
 	height: auto;
@@ -591,5 +591,11 @@ section:nth-child(2n+1){
 @media screen and (max-width: 320px){
 	#name-social-container h1{
 		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.project-container{
+		width: 80%;
 	}
 }

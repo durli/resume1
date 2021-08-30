@@ -22,7 +22,7 @@ function sectionVisible() {
     var coordinates = skillsDiv.getBoundingClientRect();
     var verticalDist = coordinates.top;
     // console.log("verticalDist =", verticalDist);
-    if (verticalDist <= 200) {
+    if (verticalDist <= 300) {
         skillAnimation();
         clearInterval(id);
         return;

@@ -108,7 +108,7 @@ body{
 	color: white;
 }
 
-#hamburger-icon a: visited{
+#hamburger-icon a:visited{
 	color: white;
 }
 
@@ -272,6 +272,7 @@ ul.social-icons{
 	border-radius: 1rem 0 0 1rem;
 	color: whitesmoke;
 	padding: 0.3rem 0px;
+	width: 10%;
 }
 
 .percent50{

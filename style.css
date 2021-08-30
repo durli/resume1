@@ -497,6 +497,12 @@ section:nth-child(2n+1){
 		display: none;
 	}
 
+	#timeline{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap-reverse;
+	}
+
 	.timeline-box{
 		width: 75%;
 	}
@@ -521,15 +527,15 @@ section:nth-child(2n+1){
 		position: absolute;
 		top: 50%;
 		z-index: 1;
-		right: -20.5%
+		left: -18.4%;
 	}
 
 	.timeline-box:nth-child(2n+1)::after{
-		right: -20.5%
+		left: -18.4%;
 	}
 
 	#path{
-		left: 90%;
+		left: 10%;
 		top: 10%;
 	}
 
